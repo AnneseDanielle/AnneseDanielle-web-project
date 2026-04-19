@@ -1,0 +1,82 @@
+nav{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    transition:0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.navlinks{
+    color: mediumslateblue;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+    transition: 0.3s;
+    display: flex;
+    gap: 20px;
+}
+.navlinks a:hover{
+    font-weight: bold;
+    background-color: plum;
+    color: #6666dd;
+}
+body{
+    background-color: #6666dd;
+    font-size: 30px;
+font-family: Arial, sans-serif;
+}
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    margin-top: 25px;
+}
+h2 {
+    color: #341C67;
+    text-align: center;
+    margin-top: 25px;
+}
+h3{
+    color: #4e328a;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    color: #C4AEF4;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+ul {
+    color: #472F5B;
+    margin: 10px 40px;
+}
+li {
+    margin-bottom: 5px;
+}
+a{
+    color:aquamarine;
+    text-decoration: none;
+    size: 15px;
+  
+}
+#mypic {
+    width: 300px;
+    height: 300px;
+    float: left;
+ }
+ #slothpic {
+    width: 300px;
+    height: 300px;
+   Float: right;
+    margin-left: 10px;
+
+ }
+ #Pru {
+    width: 300px;
+    height: 300px;
+   Float: left;
+   margin-right: 10px;
+
+ }
+
+ 
