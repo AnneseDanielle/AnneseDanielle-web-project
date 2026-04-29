@@ -64,27 +64,27 @@ body{
 font-family: Arial, sans-serif;
 }
 h1 {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 25px;
 }
 h2 {
-    color: white;
+    color: darkslategrey;
     text-align: center;
     margin-top: 25px;
 }
 h3{
-    color: white;
+    color: darkslategrey;
     text-align: center;
     margin-top: 20px;
 }
 p {
-    color: #C4AEF4;
+    color: darkblue;
     line-height: 1.5;
     margin: 10px 20px;
 }
 ul {
-    color: #9a6bc0;
+    color: purple;
     margin: 10px 40px;
 }
 li {
