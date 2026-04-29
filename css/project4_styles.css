@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically instead of horizontally */
+  }
+  
+  body {
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+}
+
+#MulitcolorBlanket{
+    height: 300px; 
+    width: 250px;
+    cursor: pointer;
+   
+
+}
+#PurpleBlueBlanket{
+    height: 300px; 
+    width: 250px;
+    cursor: pointer;
+}
+#RedGreyBlanket{
+    height: 300px; 
+    width: 250px;
+    cursor: pointer;
+}
+#PinkGreyCardigan{
+    height: 300px; 
+    width: 250px;
+    cursor: pointer;
+}
+#PurpleGreyCardigan{
+    height: 300px; 
+    width: 250px;
+    cursor: pointer;
+}
+nav{
+    font-size: 20px;
+    color: turquoise;
+    background-color: transparent;
+    padding: 10px 20px;
+    transition:0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.navlinks{
+    color: blueviolet;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+    transition: 0.3s;
+    display: flex;
+    gap: 20px;
+}
+.navlinks a:hover{
+    font-weight: bold;
+    background-color: grey;
+    color: magenta;
+}
+body{
+    background-color:  navy;
+    font-size: 30px;
+font-family: Arial, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    color: #C4AEF4;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+ul {
+    color: #9a6bc0;
+    margin: 10px 40px;
+}
+li {
+    margin-bottom: 5px;
+}
+a{
+    color:aquamarine;
+    text-decoration: none;
+    size: 15px;
+  
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+.reveal{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+#theme-btn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius:30%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.button{
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+    background: #312e38;
+}
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+#form{
+    margin: 20px auto;
+    width: 50%;
+}
+
+input {
+  font-size: 1.2rem;   /* Makes text larger */
+  padding: 12px;       /* Adds space inside to make it taller */
+  border-radius: 10px; /* Keeps the rounded corners */
+}
+
+#response {
+  margin-top: 20px;
+  font-size: 3rem;
+  color: #deec10;
+}
