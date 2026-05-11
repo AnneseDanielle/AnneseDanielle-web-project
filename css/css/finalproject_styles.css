@@ -1,0 +1,247 @@
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+  
+  body {
+    font-size: 16px; 
+  }
+}
+
+#BlankMcBlank-FounderandCEO {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+
+ }
+ #SarahJaneSmith-MarketingDirector {
+    width: 300px;
+    height: 300px;
+   Float: right;
+    margin-left: 10px;
+}
+#JohnSmith-ChiefTechnologyOfficer{
+    height: 300px; 
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+#DrEmilyGreen-LeadResearcher{
+    height: 300px; 
+    width: 250px;
+    float: right;
+    margin-left: 10px;
+}
+#MichaelBrown-SoftwareEngineer{
+    height: 300px; 
+    width: 250px;
+    Float: left;
+     margin-right: 10px;
+}
+#LisaWhite-SalesManager{
+    height: 300px; 
+    width: 250px;
+    float: right;
+     margin-left: 10px;
+}
+#DavidLee-CustomerSupportSpecialist{
+    height: 300px; 
+    width: 250px;
+    float: left;
+     margin-left: 10px;
+}
+nav{
+    font-size: 20px;
+    color: rgb(23, 43, 41);
+    background-color: transparent;
+    padding: 10px 20px;
+    transition:0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.navlinks{
+    color: rgb(8, 88, 14);
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+    transition: 0.3s;
+    display: flex;
+    gap: 20px;
+}
+.navlinks a:hover{
+    font-weight: bold;
+    background-color: grey;
+    color: rgb(217, 231, 20);
+}
+body{
+    background-color:  rgb(16, 77, 26);
+    font-size: 30px;
+font-family: Arial, sans-serif;
+}
+h1 {
+    color: rgb(241, 248, 203);
+    text-align: center;
+    margin-top: 25px;
+}
+h2 {
+    color: rgb(95, 70, 70);
+    text-align: center;
+    margin-top: 25px;
+}
+h3{
+    color: rgb(65, 129, 94);
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    color: rgb(89, 163, 4);
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+ul {
+    color: rgb(75, 204, 75);
+    margin: 10px 40px;
+}
+li {
+    margin-bottom: 5px;
+}
+a{
+    color:rgb(13, 124, 87);
+    text-decoration: none;
+    size: 15px;
+  
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+.reveal{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+#theme-btn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius:30%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.button{
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: #1db100;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  align-items: center;
+}
+
+.button:hover {
+    background: #312e38;
+}
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+#form{
+    margin: 20px auto;
+    width: 50%;
+}
+
+input {
+  font-size: 1.2rem; 
+  padding: 12px;      
+  border-radius: 10px; 
+}
+
+#response {
+  margin-top: 20px;
+  font-size: 3rem;
+  color: #deec10;
+}
+footer{
+    text-align: left;
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(8, 88, 14);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkgray;
+    font-size: large;
+}
+#contactinfo a {
+    color: white;
+}
+#tabbed {
+    display: block;
+    padding-left: 40px;
+}
+.stats-container{
+    overflow-x: auto;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.eco-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgb(102, 194, 109);
+    border: 1px solid Grey;
+}
+.eco-table thead{
+    background-color: rgb(75, 204, 75);
+    color: #ffff;
+}
+.eco-table th {
+    border: 1px solid Grey;
+    padding: 10px;
+    text-align: left;
+}
+.eco-table td {
+    border: 1px solid Grey;
+    padding: 8px;
+    text-align: left;
+}
+.eco-table tr:nth-child(even) {
+    background-color: rgb(102, 194, 109);
+}
+.stat-highlight {
+    background-color: rgb(75, 204, 75);
+    color: white;
+    font-weight: bold;
+}
+.eco-table tbody  tr:hover{
+    background-color: rgb(236, 226, 228); 
+}
+#Pollution {
+    width: 50%;
+    height: auto;
+    margin: 20px 0;
+}
